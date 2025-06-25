@@ -1,0 +1,24 @@
+# Build artifacts
+target/
+bin/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Dependency directories
+.m2/
+.gradle/
