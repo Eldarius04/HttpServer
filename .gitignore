@@ -1,17 +1,18 @@
-# Build artifacts
+# System files
+AppData/
+.idea/
+.vscode/
+*.iml
+
+# Build outputs
 target/
 bin/
 build/
 out/
 
-# IDE
-.idea/
-*.iml
-.vscode/
-
-# System files
-.DS_Store
-Thumbs.db
+# Dependency caches
+.m2/
+.gradle/
 
 # Logs and temp files
 *.log
@@ -19,6 +20,10 @@ Thumbs.db
 *.swp
 *.bak
 
-# Dependency directories
-.m2/
-.gradle/
+# IDE specific
+.ssh/
+.gnupg/
+.jdks/
+.viminfo
+.bash_history
+.gitconfig
